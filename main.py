@@ -43,7 +43,7 @@ def submit():
     if len(errors) > 0:  # error response
         response = flask.jsonify({'errors': errors, 'success': False})
         response.status_code = 400
-    else:  # success response
+    else:  # success response -- print input to console
         print("\n--Success!--\n")
         for field, value in form.items():
             print(f"{field}: {value}")
