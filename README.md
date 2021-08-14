@@ -11,7 +11,7 @@ The response specifies whether the request was successful or not, and output is 
 
 * **Debian-based Linux**
 1. Clone the repository and navigate into the base project directory
-2. Run the provided install script with `bash install_linux.sh`
+2. If the docker engine and/or docker-compose is not installed in your system, run the provided install script with `bash install_linux.sh`
 3. Run the application with `sudo docker-compose up`
 4. To hit the supervisors endpoint, either navigate to http://localhost:5000/api/supervisors on a browser or run
 `curl -X GET http://localhost:5000/api/supervisors`
