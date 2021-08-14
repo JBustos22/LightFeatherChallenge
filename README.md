@@ -26,6 +26,6 @@ The response specifies whether the request was successful or not, and output is 
 5. Run `pip install -r requirements.txt`
 6. Run `python main.py`
 7. To hit the supervisors endpoint, either navigate to http://localhost:5000/api/supervisors on a browser, or using the command line, run
-    ` curl -X GET http://localhost:5000/api/supervisors`
+    `curl -X GET http://localhost:5000/api/supervisors`
 8. To hit the submit endpoint, run `curl -i -X POST -F firstName=John -F lastName=Doe -F email=johndoe@email.com -F superVisor=JaneDoe -F phoneNumber=999-999-9999 http://localhost:5000/api/submit`
 9. If the response was successful, check the other command prompt running the application to see the console output
